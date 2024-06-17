@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+python-decouple = "*"
+black = "*"
+pylint = "*"
+bandit = "*"
+pillow = "*"
+djangorestframework-simplejwt = "*"
+django-cors-headers = "*"
+drf-extra-fields = "*"
+drf-yasg = {version = "*", extras = ["validation"]}
+cloudinary = "*"
+django-filter = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
